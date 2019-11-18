@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [[DXJFactoryUI new] pleasePrintOneWord:@"xxxxxx"];
+//    [[DXJFactoryUI new] pleasePrintOneWord:@"xxxxxx"];
 }
 
 - (void)didReceiveMemoryWarning
