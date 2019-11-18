@@ -1,16 +1,29 @@
 PODS:
-  - DXJTools (0.1.0)
+  - DXJTools (1.0.0):
+    - Masonry (~> 1.0.2)
+    - SDWebImage (~> 4.0)
+  - Masonry (1.0.2)
+  - SDWebImage (4.4.7):
+    - SDWebImage/Core (= 4.4.7)
+  - SDWebImage/Core (4.4.7)
 
 DEPENDENCIES:
   - DXJTools (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - SDWebImage
 
 EXTERNAL SOURCES:
   DXJTools:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DXJTools: c97a18bb2da65fdf753c030d8ee9e67550250432
+  DXJTools: 165e736b78f6638b49dd01267c1db9a36d998426
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
 
-PODFILE CHECKSUM: 29740f5dc5eb6d09226c4f13706fa27da139e666
+PODFILE CHECKSUM: 1dacb3e05280c443b0aebe25679989e390e233c8
 
 COCOAPODS: 1.8.4
