@@ -7,7 +7,7 @@
 //
 
 #import "DXJViewController.h"
-
+#import "DXJFactoryUI.h"
 @interface DXJViewController ()
 
 @end
@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [[DXJFactoryUI new] pleasePrintOneWord:@"xxxxxx"];
 }
 
 - (void)didReceiveMemoryWarning

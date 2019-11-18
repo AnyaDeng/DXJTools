@@ -1,0 +1,16 @@
+PODS:
+  - DXJTools (0.1.0)
+
+DEPENDENCIES:
+  - DXJTools (from `../`)
+
+EXTERNAL SOURCES:
+  DXJTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DXJTools: c97a18bb2da65fdf753c030d8ee9e67550250432
+
+PODFILE CHECKSUM: 29740f5dc5eb6d09226c4f13706fa27da139e666
+
+COCOAPODS: 1.8.4

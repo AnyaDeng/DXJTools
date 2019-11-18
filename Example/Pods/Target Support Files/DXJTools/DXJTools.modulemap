@@ -1,0 +1,6 @@
+framework module DXJTools {
+  umbrella header "DXJTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
