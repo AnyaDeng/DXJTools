@@ -1,5 +1,5 @@
 PODS:
-  - DXJTools (1.0.0):
+  - DXJTools (1.0.2):
     - Masonry (~> 1.0.2)
     - SDWebImage (~> 4.0)
   - Masonry (1.0.2)
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DXJTools: 165e736b78f6638b49dd01267c1db9a36d998426
+  DXJTools: 4e3e99c54556631d0ebefae28168cfa133ed430e
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
 

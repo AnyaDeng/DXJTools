@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "DXJCommonDefine.h"
 #import "DXJFactoryUI.h"
 
 FOUNDATION_EXPORT double DXJToolsVersionNumber;
