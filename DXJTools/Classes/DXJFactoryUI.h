@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import <Masonry/Masonry.h>
+typedef void(^callBack)(MASConstraintMaker *make);
 
 @interface DXJFactoryUI : NSObject
 
++ (UIImageView *)createImageViewWithView:(UIView *)backGroundView cornerRadius:(NSInteger)cornerNum imageName:(NSString *)imageName andMasoryBlock:(callBack)callback;
+
 @end
 
-NS_ASSUME_NONNULL_END
+
